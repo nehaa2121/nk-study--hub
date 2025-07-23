@@ -1,0 +1,127 @@
+body{
+    background-color: #dabde3;
+    font-family: HELVETICA;
+    color: #4c2358;
+}
+a{
+    text-align: right;
+    color:rgb(239, 225, 242); 
+     text-decoration: none;
+}
+.hoverc1{
+  background-color:#25042f;
+  margin:2px;
+  border-radius: 10px;
+  padding:2px;
+  text-align: center;
+}
+.hoverc{
+    display:inline-block;
+    color:rgb(239, 225, 242); 
+     margin:20px;
+      background-color: #25042f;
+                padding: 20px;
+                border-radius: 10px;
+                
+}
+.hoverc:hover {
+background-color:  rgb(210, 100, 211);
+transition: background-color 0.3s ease;
+            }
+.div1{
+    font-size: 50px;
+    font-weight: bold;
+    border:1px solid rgb(61, 2, 61);
+    background-color: #340542;
+    border-radius: 40px;
+  
+
+}
+.div1:hover{
+    background-color: #740197;
+    font-weight: bold;
+    
+}
+.Tagline{
+  color:rgb(22, 3, 26); 
+    font-size: 90px;
+    margin: 40px 0;
+    text-align: center;
+
+}
+.subtagline{
+  color:rgb(22, 3, 26); 
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+}
+.about{
+    color:#4c2358; 
+}
+.div2{
+    font-size:30px;
+}
+main img {
+  max-width:100%;
+  height: auto;
+  display:block;
+  margin: 0 auto;
+
+}
+.menu{
+  font-size: 15px;
+  margin-right:px;
+}
+
+@media screen and (max-width: 600px) {
+  .Tagline {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .subtagline {
+    font-size: 25px;
+    margin: 15px;
+  }
+
+  .div1 {
+    font-size: 30px;
+    padding: 10px 20px;
+  }
+
+  .div2 {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  .menu {
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .hoverc {
+   display:inline-block;
+    color:rgb(239, 225, 242); 
+     margin: 3px;
+      background-color: #25042f;
+                padding: 2px;
+                border-radius: 10px;
+                font-size: 8px;
+               
+
+
+   
+}
+body{
+  background-color: #4c2358;
+}
+
+  }
+
+.hoverc1{
+  background-color:#25042f;
+  margin: 9px;
+  border-radius: 10px;
+  padding: 5px;
+}

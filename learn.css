@@ -1,0 +1,123 @@
+ li{
+                font-size: 30px;
+            }
+            body{
+                font-family: helvetica;
+                background-color: #dbd2de;
+                color:rgb(26, 5, 31); 
+            }
+            h1{
+                text-align: center;
+                 font-size: 50px;
+            }
+           
+            h3{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 40px;
+            }
+            
+            
+            .code{
+                border:#a46cb5 2px solid; 
+                background-color:#af7cbe;
+                border-radius: 10px;
+                padding: 5px;
+                margin: 15px;
+            }
+            pre{
+                font-size: 30px;
+            }
+            button{
+                padding:10px ;
+                font-size: 16px;
+                margin: 1px;
+                cursor: pointer;
+                background-color:#4c2358;
+                color:white;
+                border: none;
+                border-radius: 5px;
+                font-size: 30px;
+                text-align: center;
+            }
+          
+            .imp{
+                background-color: #ae7ebd;
+                padding: 2px 4px;
+            }
+            
+            .option{
+                background-color: #3f0c4f;
+                text-align: center;
+                margin-top: 10px;
+                padding: 30px;
+                font-size:30px;
+            }
+            a{
+                color:#d672f5;
+                text-decoration: none;
+            }
+            a:hover{
+                color:#e8acfb;
+            }
+            .main{
+                background-color: #d3b6dc;
+                margin: 10px;
+                padding: 10px;
+            }
+             span{
+                background-color: #bf96cc;
+                padding: 2px;
+            }
+            table tr th td{
+                border-collapse: collapse;
+                border: 1px solid black;
+            }
+
+            
+        
+            @media screen and ( max-width:500px) {
+                h1{
+                    font-size: 20px;
+                }
+                body{
+                    padding: 10px;
+                    margin: 10px;
+                }
+               
+                }
+                h3{
+                    font-size: 15px;
+                }
+                .code{
+                    font-size: 11px;
+                    padding: 2px;
+                    margin: 5px;
+                }
+                pre{
+                    font-size: 14px;
+
+                }
+                .main{
+                    margin: 10px;
+                    border-radius: 5px;
+                }
+                .subdiv{
+                    font-size: 10px;
+                }
+                h2{
+                    font-size: 25px;
+                }
+                li{
+                    font-size: 15px;
+                }
+                .explain{
+                    font-size:10px ;
+                }
+                .option{
+                    font-size: 16px;
+                }
+            
+           
+            

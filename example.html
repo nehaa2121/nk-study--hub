@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+       
+       <style> body {
+  margin: 0;
+  background-color: #4c2358;
+  font-family: Arial, sans-serif;
+  color: rgb(239, 225, 242);
+}
+
+/* Header */
+header {
+  background-color: #25042f;
+  padding: 15px 30px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+nav a {
+  color: rgb(239, 225, 242);
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #340542;
+}
+nav a:hover {
+  background-color: rgb(210, 100, 211);
+  transition: 0.3s;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.hero img {
+  width: 300px;
+  max-width: 90%;
+  border-radius: 20px;
+}
+.explore-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #740197;
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+}
+.explore-btn:hover {
+  background-color: #a946b1;
+}
+.subtag {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.about ul {
+  font-size: 20px;
+  line-height: 1.8;
+  list-style: none;
+  padding: 0;
+}
+.about ul li::before {
+  content: "✔️ ";
+  margin-right: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 5px;
+  }
+
+  .explore-btn {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+
+  .about p, .about ul {
+    font-size: 18px;
+  }
+}
+</style>
+    </head>
+    <body>
+    <header>
+        <div class="nav-container"> 
+            <div class="logo">NK</div>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">RESOURCES</a>
+                <a href="#">BLOGS</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Empowering Students<br>to learn, Grow & Succeed</h1>
+        <img src="nkhome (2).png" alt="Girl coding illustration">
+        <a class="explore-btn" href="#">EXPLORE</a>
+        <p class="subtag">Get access to free notes, coding tips, career guides & more.</p>
+ </section>
+ <section class="about">
+    <h2>ABOUT NK</h2>
+    <p>Hi, I'm Neha – a digital creator, coder, and tech enthusiast. I’ve always believed that learning should be simple, creative, and accessible for everyone.</p>
+    <p>I started this platform, <strong>NK</strong>, to help students like you find everything in one place – from clear notes and coding tutorials to practical questions, mini projects, real-world concepts, and career guidance.</p>
+ <p><strong>NK is more than a website</strong> – it’s a learning space built with heart, dedication, and a lot of late-night coding!</p>
+
+  <ul>
+      <li>📚 Free notes and structured topics</li>
+      <li>💻 Real examples and coding projects</li>
+      <li>🧠 Mini lessons with animations and videos</li>
+      <li>🎯 Career insights and job-related skills</li>
+      <li>📈 Tools and guides to grow your digital journey</li>
+    </ul>
+ </section>
+    </body>
+</html>
