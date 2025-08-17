@@ -41,6 +41,7 @@
             }
             ::placeholder{
                 color: #b182be;
+                font-size: 8px;
             }
             .option{
             margin:10px 0;
@@ -55,13 +56,17 @@
                 border-radius:40px;
             }
             @media screen and (max-width:600px){
-                .question{
-                    font-size: 10px;
-                    margin: 5px;
-                    padding: 10px;
-                }
                 .input{
-                    font-size: 15px;
-                    padding: 10px;
+                    font-size: 10px;
+                    padding: 5px;
                 }
+                 .question{
+                margin-bottom: 40px;
+                font-size:10px;
+                background-color:#e9d0f1;
+                border-radius: 10px;
+                padding: 20px;
+                margin: 30px;
+                box-shadow: #16011d; 
+            }
             }
