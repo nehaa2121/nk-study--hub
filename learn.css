@@ -3,7 +3,7 @@
             }
             body{
                 font-family: helvetica;
-                background-color:#faf2fd;
+                 background-color: #faf2fd;
                 color:rgb(26, 5, 31); 
             }
             h1{
@@ -20,18 +20,13 @@
                 font-size: 40px;
                 color: #4c2358;
             }
-            
-            
             .code{
-                border:#ccadd5 2px solid; 
-                background-color:#e8d4ef;
-                border-radius: 10px;
-                padding: 5px;
-                width: 100%;
-                margin:20px
-            }
-            pre{
                 font-size: 30px;
+                background-color: rgb(235, 217, 235);
+                padding: 10px;
+                margin: 50px;
+                border-radius: 10px;
+                text-align: left;
             }
              button{
                 padding:8px;
@@ -107,7 +102,7 @@
                     margin: 5px;
                 }
                 pre{
-                    font-size: 14px;
+                    font-size: 13px;
 
                 }
                 .main{

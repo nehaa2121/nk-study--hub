@@ -1,5 +1,5 @@
             body{
-                 background-color:rgb(239, 225, 242); 
+                 background-color: #faf2fd;
                 color: #4c2358;
                 margin:30px;
                 font-family: helvetica;
@@ -34,7 +34,7 @@
             .question{
                 margin-bottom: 40px;
                 font-size:15px;
-                background-color:#e9d0f1;
+                background-color:#ffffff;
                 border-radius: 10px;
                 padding: 20px;
                 margin: 10px;
