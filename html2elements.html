@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>HTML BASICS</title>
+ <title>HTML BASICS TAGS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="learn.css" rel="stylesheet">
-       
     </head>
-    <body>
-        <div class="main">
-    <h1>HTML ELEMENTS</h1>
+    <body> 
+    <div class="main"></div>
+    <h1>HTML BASIC TAGS</h1>
+  
     <div  class="subdiv">
-        <h3>In HTML (HyperText Markup Language), an element is a building block of a webpage. <br>
-            It represents the structure and content — like headings, paragraphs, images, links, etc.
-        </h3>
-    </div><br><br>
-    <hr>
+        <h3>Tags are used to define elements on a webpage.<br>
+            Almost all HTML elements have opening and closing tags.</h3>
+    </div>
+    <br><br><hr>
     <h2>Basic Structure of an HTML Element:</h2>
 <div class="code">
     <pre>
-        &lt;tagname&gt;Content goes here&lt;/tagname&gt;
+ &lt;tagname&gt;Content goes here&lt;/tagname&gt;
     </pre>   
 </div>
  <ul>
@@ -30,31 +29,86 @@
     <br>
     <br>
     <hr>
-    <h2>Examples of HTML Elements</h2>
-    <h3>1. Heading element</h3>
+    <h2>Basic HTML Tags</h2>
+    <h3>1. Headings: &lt;h1&gt; to &lt;h6&gt;</h3>
+    <h4>Use these to create titles or subtitles.
+        There are six levels of headings.</h4>
+        <ul>
+            <li>&lt;h1&gt; is the largest and boldest.</li>
+            <li>&lt;h6&gt; is the smallest and least bold.</li>
+        </ul>
+        <h4>Example:</h4>
     <div class="code">
-        <pre>
-        &lt;h1&gt;This is a heading&lt;/h1&gt;
+       <pre>
+ &lt;h1&gt;Main Title&lt;/h1&gt;
+ &lt;h2&gt;Sub Title&lt;/h2&gt;
+ &lt;h3&gt;Section&lt;/h3&gt;
+ &lt;h4&gt;Subsection&lt;/h4&gt;
+ &lt;h5&gt;Note&lt;/h5&gt;
+ &lt;h6&gt;Smallest Heading&lt;/h6&gt;
         </pre>
     </div>
-    <h3>2. Paragraph element</h3>
+    <h4>Output:</h4>
+    <div class="code">
+ <h1 style="text-align: left;">Main Title</h1>
+ <h2>Sub Title</h2>
+ <h3>Section</h3>
+ <h4>Subsection</h4>
+ <h5>Note</h5>
+ <h6>Smallest Heading</h6>
+    </div>
+    <h3>2. Paragraphs: &lt;p&gt;</h3>
+    <h4>Use this to write a block of text.</h4>
+    <h4>Example:</h4>
     <div class="code">
         <pre>
-        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+ &lt;p&gt;This is a paragraph of text. It appears with some margin and line spacing.&lt;/p&gt;
         </pre>
     </div>
-    <h3>3. Image element (self-closing)</h3>
+    <h4>Output:</h4>
+    <div class="code">
+        <p>This is a paragraph of text. It appears with some margin and line spacing.</p>
+    </div>
+    <h3>3. Line Break: &lt;br&gt;</h3>
+    <h4>Used to jump to the next line withput starting a new paragraph. 
+        It's a self-closing tag, so it doesn't need &lt;/br&gt;
+    </h4>
+    <h4>Example:</h4>
     <div class="code">
         <pre>
-        &lt;img src="image.jpg" alt="Description"&gt;
+ &lt;p&gt;Hello Neha!&lt;br&gt;Welcome to HTML learning.&lt;/p&gt;
         </pre>
     </div>
-    <h3>4. Link element</h3>
+    <h4>Output:</h4>
+    <div class="code">
+        <p>Hello Neha!<br>Welcome to HTML learning.</p>
+    </div>
+    <h3>4. Horizontal Line: &lt;hr&gt;</h3>
+    <h4>This creates a horizontal line across the page. It used to separate section of content.</h4>
+    <h4>Example:</h4>
     <div class="code">
         <pre> 
-        &lt;a href="https://example.com>Visit Example"&lt;/a&gt;
+ &lt;p&gt;Above the line&lt;/p&gt;
+ &lt;hr&gt;
+ &lt;p&gt;Below the line&lt;/p&gt;
         </pre>
-    </div><br><hr>
+    </div>
+    <h4>Output:</h4>
+    <div class="code">
+        <p>Above the line</p>
+        <hr>
+        <p>Below the line</p>
+    </div>
+    <h3>5. Comments: &lt;!--Comment--&gt;</h3>
+    <h4>Comments are invisible notes in your code. They help you or other developers understand the code but don't appear on the webpage.</h4>
+    <h4>Example:</h4>
+    <div class="code">
+        <pre>
+ &lt;!--This is a Comment: It won't be shown on the page--&gt;
+ <p>This is visible</p>
+        </pre>
+    </div>
+    <br><hr>
     <h2>Types of HTML Elements:</h2>
     <div>
         <table border="1px">
@@ -70,7 +124,7 @@
             </tr>
             <tr>
                 <th>Inline</th>
-                <td>&lt;span&gt;,&lt;a&gt;,&gt;img&gt;</td>
+                <td>&lt;span&gt;,&lt;a&gt;,&lt;img&gt;</td>
                 <th>Flows with text</th>
             </tr>
             <tr>
@@ -138,12 +192,17 @@
         <li>Elements can nest inside each other:</li>
         <div class="code">
             <pre>
-         &lt;p&gt;This is a &lt;strong&gt;<strong>bold</strong>&lt;/strong&gt;
+ &lt;p&gt;This is a &lt;strong&gt;<strong>bold</strong>&lt;/strong&gt;
             </pre>
             </div>
     </ul>
 </div>
-<a href="html1introduction.html"></a><button>Previous</button></a>
-<a href="#"></a><button>Next chapter</button></a>
+<br><br><hr><br><br>
+<div class="option">
+    <a href="html2elementsmcq.html">HTML ELEMENTS EXERCISE </a>
+</div>
+<br><br>
+<a href="html1introduction.html"><button>Previous</button></a>
+<a href="html3textformatting.html"><button>Next chapter</button></a>
     </body>
 </html>

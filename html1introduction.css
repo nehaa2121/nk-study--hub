@@ -3,7 +3,7 @@
             }
             body{
                 font-family: helvetica;
-               background-color: #dabde3;
+               background-color: #f7e3fd;
                 color:rgb(239, 225, 242); 
             }
             h1{
@@ -34,16 +34,15 @@
             pre{
                 font-size: 30px;
             }
-            button{
-                padding:10px ;
-                font-size: 16px;
+             button{
+                padding:8px;
+                font-size: 15px;
                 margin: 1px;
                 cursor: pointer;
                 background-color:#4c2358;
                 color:white;
                 border: none;
                 border-radius: 5px;
-                text-align: center;
             }
           
             .imp{
@@ -69,7 +68,6 @@
                 color:#e8acfb;
             }
             .main{
-                background-color: #4c2358;
                 margin: 10px;
             }
              span{

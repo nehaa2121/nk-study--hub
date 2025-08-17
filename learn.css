@@ -3,43 +3,45 @@
             }
             body{
                 font-family: helvetica;
-                background-color: #dbd2de;
+                background-color:#faf2fd;
                 color:rgb(26, 5, 31); 
             }
             h1{
                 text-align: center;
-                 font-size: 50px;
+                 font-size: 70px;
             }
            
             h3{
                 font-size: 30px;
+                color: #4c2358;
+                margin-bottom: 10px;
             }
             h2{
                 font-size: 40px;
+                color: #4c2358;
             }
             
             
             .code{
-                border:#a46cb5 2px solid; 
-                background-color:#af7cbe;
+                border:#ccadd5 2px solid; 
+                background-color:#e8d4ef;
                 border-radius: 10px;
                 padding: 5px;
-                margin: 15px;
+                width: 100%;
+                margin:20px
             }
             pre{
                 font-size: 30px;
             }
-            button{
-                padding:10px ;
-                font-size: 16px;
+             button{
+                padding:8px;
+                font-size: 15px;
                 margin: 1px;
                 cursor: pointer;
                 background-color:#4c2358;
                 color:white;
                 border: none;
                 border-radius: 5px;
-                font-size: 30px;
-                text-align: center;
             }
           
             .imp{
@@ -62,8 +64,8 @@
                 color:#e8acfb;
             }
             .main{
-                background-color: #d3b6dc;
-                margin: 10px;
+                background-color: #ffffff;
+                margin: 8px;
                 padding: 10px;
             }
              span{
@@ -72,7 +74,16 @@
             }
             table tr th td{
                 border-collapse: collapse;
+            }
+            table{
                 border: 1px solid black;
+                width: 100%;
+            }
+            th{
+                background-color: #e0c1ef;
+            }
+            td{
+                background-color: #f7ebfc;
             }
 
             

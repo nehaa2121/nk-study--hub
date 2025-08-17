@@ -1,5 +1,5 @@
 body{
-    background-color: #dabde3;
+    background-color: #faf2fd;
     font-family: HELVETICA;
     color: #4c2358;
 }
@@ -10,18 +10,18 @@ a{
 }
 .hoverc1{
   background-color:#25042f;
-  margin:2px;
   border-radius: 10px;
-  padding:2px;
+  padding:40px 100px 40px 160px;
   text-align: center;
+
 }
 .hoverc{
-    display:inline-block;
-    color:rgb(239, 225, 242); 
-     margin:20px;
-      background-color: #25042f;
-                padding: 20px;
-                border-radius: 10px;
+display:inline-block;
+color:rgb(239, 225, 242); 
+margin:15px;
+background-color: #25042f;
+padding: 15px;
+border-radius: 10px;
                 
 }
 .hoverc:hover {
@@ -34,20 +34,17 @@ transition: background-color 0.3s ease;
     border:1px solid rgb(61, 2, 61);
     background-color: #340542;
     border-radius: 40px;
-  
-
+    padding:10px 220px;
 }
 .div1:hover{
     background-color: #740197;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 .Tagline{
   color:rgb(22, 3, 26); 
     font-size: 90px;
     margin: 40px 0;
     text-align: center;
-
 }
 .subtagline{
   color:rgb(22, 3, 26); 
@@ -70,58 +67,88 @@ main img {
 }
 .menu{
   font-size: 15px;
-  margin-right:px;
 }
-
-@media screen and (max-width: 600px) {
-  .Tagline {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .subtagline {
-    font-size: 25px;
-    margin: 15px;
-  }
-
-  .div1 {
-    font-size: 30px;
-    padding: 10px 20px;
-  }
-
-  .div2 {
-    font-size: 20px;
-    padding: 0 10px;
-  }
-
-  .menu {
-    text-align: center;
-    display: inline-block;
-    padding: 5px;
-  }
-
-  .hoverc {
-   display:inline-block;
-    color:rgb(239, 225, 242); 
-     margin: 3px;
-      background-color: #25042f;
-                padding: 2px;
-                border-radius: 10px;
-                font-size: 8px;
-               
-
-
-   
+div{
+  padding: 10px;
+  display: inline;
 }
+.pic{
+  background-color: #340542;
+  padding: 10px;
+}
+img{
+  width:100px;
+  height: 100px;
+}
+.mainpic{
+  text-align: center;
+}
+.main{
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  border-radius: 30px;
+}
+.pic1{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.pic{
+  margin: 6px;
+  box-shadow:rgba(0, 0,0, 0.1)
+}
+@media screen and (max-width:600px)  {
 body{
-  background-color: #4c2358;
+    background-color: #faf2fd;
+    font-family: HELVETICA;
+    color: #4c2358;
 }
-
-  }
-
-.hoverc1{
+  .hoverc1{
   background-color:#25042f;
-  margin: 9px;
   border-radius: 10px;
-  padding: 5px;
+  padding:12px 7px;
+  text-align: center;
+  font-size:5px;
+
+}
+.hoverc{
+display:inline-block;
+color:rgb(239, 225, 242); 
+background-color: #25042f;
+padding:12px 4px;
+margin:3px;
+border-radius: 10px;
+                
+}
+.menu{
+  font-size: 7px;
+}
+.Tagline{
+  color:rgb(22, 3, 26); 
+  font-size:40px;
+  margin: 20px 0;
+  text-align: center;
+}
+.subtagline{
+  color:rgb(22, 3, 26); 
+  text-align: center;
+  margin: 40px 0;
+  font-size: 20px;
+}
+.div1{
+    font-size: 18px;
+    font-weight: bold;
+    border:1px solid rgb(61, 2, 61);
+    background-color: #340542;
+    border-radius: 40px;
+    padding:10px 120px;
+}
+.pic1{
+  width: 110px;
+  height: 110px;
+  padding: 15px 8px;
+  box-shadow: #25042f;
+}  
+
 }
