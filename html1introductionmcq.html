@@ -4,7 +4,7 @@
         <title>HTML INTRODUCTION MCQ QUESTIONS</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="html1introductionmcq.css" rel="stylesheet">
+        <link href="mcqs.css" rel="stylesheet">
     </head>
     <body>
     <h1>HTML INTRODUCTION EXERCISE</h1>
@@ -83,7 +83,6 @@
     <button type= "button" onclick="checkAnswers()">Check Score</button>
     <div id="result"></div>
     </form>
-
     <script>
         function checkAnswers() {
             const answers = {
@@ -105,7 +104,7 @@
                 const selected =
                  document.querySelector(`input[name="${key}"]:checked`);
                const labels =
-                document.querySelectorAll('input[name="${key}"]+ label, input[name="${key}"]');
+                document.querySelectorAll(`input[name="${key}"]+ label, input[name="${key}"]`);
 
                 labels.forEach(label =>
                     label.parentElement.classList.remove("correct","wrong"));
